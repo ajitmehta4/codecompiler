@@ -20,4 +20,5 @@ Route::get('/', function () {
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
-
+Route::resource('test', 'Recruiter\TestController');
+Route::resource('library', 'Recruiter\LibraryController');
