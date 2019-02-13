@@ -1,6 +1,6 @@
 @extends('layouts.recruiter')
-
 @section('content')
+testing
 <div class="main-wrapper">
         <div class="container">
             <div class="col-sm-6 col-sm-offset-3 nodata-dashboard">
